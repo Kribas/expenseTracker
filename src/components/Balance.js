@@ -13,6 +13,17 @@ export default function Balance() {
     <div>
         <h4>Your Balance</h4>
         <h1>$ {total}</h1>
+
+        <div className="income__expense d-flex align-items-center justify-content-evenly">
+          <div className='card w-100'>
+              <h5>INCOME</h5>
+              <p>+ $ 0</p>
+          </div>
+          <div className='card w-100'>
+            <h5>Expense</h5>
+            <p>$ 0</p>
+          </div>
+        </div>
     </div>
   )
 }

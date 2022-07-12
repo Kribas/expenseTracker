@@ -1,7 +1,9 @@
 import { createSlice, nanoid } from "@reduxjs/toolkit"
 
 const initialState = {
-  transactions: []
+  transactions: [],
+  income: 0,
+  expense: 0
 }
 
 const transactionsSlice = createSlice({
@@ -16,12 +18,13 @@ const transactionsSlice = createSlice({
           return {
             payload: {
               id: nanoid(),
+              date: new Date().toISOString(),
               title: title,
               amount: +amount
             }
           }
         }
-      }
+      },
     }
 })
 

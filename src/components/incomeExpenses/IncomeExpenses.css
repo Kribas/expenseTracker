@@ -1,0 +1,36 @@
+.income__expenses .balance__detail > h4 {
+    color: #1E4197;
+    font-size: 18px;
+}
+
+.income__expenses .balance__detail > h1 {
+    color: #1E4197;
+    font-size: 30px;
+}
+
+.balance__detail {
+    margin: 50px 0px;
+}
+
+.income__expenses .card {
+    margin-bottom: 40px;
+    max-width: 300px;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.card .card__details h6 {
+    font-size: 16px;
+}
+
+.card .card__details h1 {
+    font-size: 20px;
+}
+
+.add__transaction__button {
+    color: #fff;
+    background-color: #FC7C7B;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 8px;
+}
